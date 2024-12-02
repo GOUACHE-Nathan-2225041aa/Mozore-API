@@ -1,5 +1,7 @@
 package com.le_bar_des_menteurs.server;
 
+import com.google.gson.Gson;
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
