@@ -37,4 +37,9 @@ public class Game {
         }
         return null;
     }
+
+    public static Player getPlayerInRound(String token)
+    {
+        return currentRound.getOnePlayer(token);
+    }
 }

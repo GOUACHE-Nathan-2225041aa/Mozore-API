@@ -50,5 +50,17 @@ public class Round {
     {
         return players;
     }
+
+    public Player getOnePlayer(String token)
+    {
+        for (Player p : this.players)
+        {
+            if(p.getToken().equals(token))
+            {
+                return p;
+            }
+        }
+        return null;
+    }
 }
 
