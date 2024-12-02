@@ -33,7 +33,6 @@ public class Round {
 
         // En fonction du nombre de joueur, on enlève des cartes du jeu
         int cartesParJoueurs =  cardList.size() / players.size();
-        System.out.println(cartesParJoueurs);
 
         // On donne à chaque joueur ses cartes
         for (Player player : players) {
@@ -43,7 +42,6 @@ public class Round {
         }
 
         playerTurn = players.get(0);
-        System.out.println(players);
     }
 }
 
