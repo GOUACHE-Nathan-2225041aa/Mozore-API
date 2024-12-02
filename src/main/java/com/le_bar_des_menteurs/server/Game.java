@@ -12,8 +12,4 @@ public class Game {
     {
         currentRound = new Round(players);
     }
-
-    public static ArrayList<Player> getPlayers() {
-        return players;
-    }
 }
