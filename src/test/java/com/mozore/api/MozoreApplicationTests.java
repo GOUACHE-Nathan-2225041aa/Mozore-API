@@ -1,10 +1,10 @@
-package com.le_bar_des_menteurs.server;
+package com.mozore.api;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class LeBarDesMenteursApplicationTests {
+class MozoreApplicationTests {
 
 	@Test
 	void contextLoads() {
