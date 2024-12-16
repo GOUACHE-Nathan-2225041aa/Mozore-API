@@ -1,15 +1,13 @@
-package com.le_bar_des_menteurs.server;
-
-import com.google.gson.Gson;
+package com.mozore.api;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class LeBarDesMenteursApplication {
+public class MozoreApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(LeBarDesMenteursApplication.class, args);
+		SpringApplication.run(MozoreApplication.class, args);
 	}
 
 }
